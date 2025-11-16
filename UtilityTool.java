@@ -1,7 +1,8 @@
 public class UtilityTool {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to My Utility Tool!");
+        System.out.println("Welcome to Utility Tool Version A!");
+
         System.out.println("Sum Result = " + addNumbers(1, 2));
         System.out.println("Subtraction Result = " + subtractNumbers(5, 2));
         System.out.println("Current Time: " + getCurrentTime());
