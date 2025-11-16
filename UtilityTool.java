@@ -3,12 +3,21 @@ public class UtilityTool {
     public static void main(String[] args) {
         System.out.println("Welcome to My Utility Tool!");
         System.out.println("Sum Result = " + addNumbers(1, 2));
+        System.out.println("Subtraction Result = " + subtractNumbers(5, 2));
         System.out.println("Current Time: " + getCurrentTime());
         System.out.println("Hostname: " + getHostName());
     }
 
     public static int addNumbers(int a, int b) {
         return a + b;
+    }
+
+    public static int subtractNumbers(int a, int b) {
+        return a - b;
+    }
+
+    public static int findMax(int a, int b) {
+        return (a > b) ? a : b;
     }
 
     public static String getCurrentTime() {
