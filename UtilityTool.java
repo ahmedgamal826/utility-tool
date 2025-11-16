@@ -1,10 +1,11 @@
 public class UtilityTool {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Utility Tool Version A!");
+        System.out.println("Welcome to Utility Tool Version B!");
 
         System.out.println("Sum Result = " + addNumbers(1, 2));
         System.out.println("Subtraction Result = " + subtractNumbers(5, 2));
+        System.out.println("Max Number = " + findMax(10, 7));
         System.out.println("Current Time: " + getCurrentTime());
         System.out.println("Hostname: " + getHostName());
     }
